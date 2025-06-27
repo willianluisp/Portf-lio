@@ -1,0 +1,54 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #427aa1;
+    justify-content: center;
+    padding-top: 50px; /*Adiciona um espaço a cima do elemento*/
+    display: flex;
+    text-align: center;
+}
+
+.container { /*Para a caixa ficar om sombra e cor*/
+    background-color: #064789; /*Cor do fundo*/
+    padding: 30px; /*Area de preenchimento*/
+    border-radius: 10px; /*Borda do elemento*/
+    box-shadow: 0 0 10px #ebf2fa; /*sombra da caixa*/
+    width: 600px; /* largura do elemento*/
+    text-align: center; /*O texto dentro do elmento será alinnhado no centro dele*/
+    margin: 175px;
+}
+input,button {
+    width: 100%;
+    margin: 10px 0; /*Espaço ao redor dos elementos*/
+    padding: 10px 0; 
+    font-size: 16px;
+}
+button {/*Botão*/
+    background-color: #427aa1;/*Alterar a cor do botão*/
+    color: #ebf2fa;/*Cor do texto que está no botão*/
+    border-radius: 5px; /*Borda do botão*/
+    border-color: #064789; /*Cor da borda do botão*/
+    cursor: grab; /*Mãozinha ao passar por cima do botão*/
+}
+section:hover { /*Animação do mouse ao passar em cima do botao*/
+    transform: translateY(-2.5px);
+}
+h1 { 
+    color: #ebf2fa;
+}
+h3 {
+    color: #427aa1;
+    margin: 3px; /*Espaço ao redor dos elementos*/
+}
+#resultado {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #427aa1;
+}
+head {
+    background-color:#427aa1;
+    padding: 0 1px;
+    color: #ebf2fa;
+    margin: 50 50px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
