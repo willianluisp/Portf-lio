@@ -5,7 +5,7 @@ function mostrarNome() {
 
 function mostrarHobbies() {
     document.getElementById('quadrado-info').innerHTML = 
-        '<h2>Meus Hobbies</h2><p>Gosto de sair, praticar esportes e viajar.</p>';
+        '<h2>Meus Hobbies</h2><p>Gosto de sair bastante de casa, praticar esportes principalmente tenis de mesa e ciclismo, também gosto muito de viajar.</p>';
 }
 
 function mostrarcurso() {

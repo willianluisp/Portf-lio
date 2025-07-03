@@ -68,4 +68,5 @@ section:hover {
   display: flex;
   justify-self: center;
   border-radius: 10px;
+  align-items: center;
 }

@@ -38,7 +38,7 @@ button {
 }
 
 #quadrado-info {
-    margin: 20px auto;
+    margin: auto;
     padding: 15px;
     max-width: 600px;
     border: 1px solid #427aa1;
@@ -67,4 +67,13 @@ p {
     border-radius: 4px;
     cursor: grab;
     width: 500px;
+}
+section:hover { /*Animação do mouse ao passar em cima do botao*/
+    transform: translateY(-2.5px);
+}
+.botoes {
+  display: flex;
+  gap: 10px; /* espaço entre os botões */
+  margin-bottom: 20px;
+  justify-self: center; /*mover para o centro*/
 }
