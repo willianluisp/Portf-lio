@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#00abce); /* Cor do fundo do site */
+    font-family: 'Comic Neue', sans-serif; /* Fonte do site */
+    font-weight: 400;
+    display: flex; /* Flex container */
+    justify-content: center; /* Centraliza conteúdo horizontalmente */
+    align-items: center; /* Centraliza conteúdo verticalmente */
+    height: 100vh; /* Garante que o body ocupe toda a altura da tela */
+}
+
+.LoginContainer {
+    background-color: white; /* Cor de fundo do container */
+    padding: 30px; /* Espaçamento interno do container */
+    width: 492px; /* Largura do container */
+    height: 392px; /* Altura do container */
+    margin: 20px; /* Margem do container para não ficar colado nas bordas */
+    text-align: left; /* Alinhamento do texto para a esquerda */
+    border-radius: 8px; /* Borda arredondada do container */
+}
+
+button {
+    background-color: #00abce; /* Cor do botão */
+    color: #ebf2fa; /* Cor do texto do botão */
+    border-color: white;
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border-radius: 10px; /* Borda arredondada do botão */
+    cursor: pointer; /* Cursor de mão ao passar por cima do botão */
+    margin: 20px;
+    width: 50%; /* Botão ocupa toda a largura do container */
+}
+
+button:hover {
+    background-color: #008c99; /* Cor mais escura quando o botão é pressionado */
+}
+
+input {
+    width: 440px;
+    height: 43px;
+    padding-left: 10px; /* Adiciona um pequeno padding para o texto não ficar colado */
+    border-color: black; /* Cor da borda dos campos de entrada */
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+header {
+    margin-bottom: 20px; /* Espaço abaixo do cabeçalho */
+}
+
+.MostrarSenha {
+    transform: scale(0.5); /* Diminui o tamanho da checkbox */
+    margin-left: 10px; /* Espaço à esquerda da checkbox */
+    display: flex;
+}
+
+
