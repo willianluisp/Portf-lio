@@ -7,7 +7,6 @@
     <title>Tela de Login</title>
 </head>
 <body>  
-
     <div class="LoginContainer">
         <form>
             <label for="usuario">Usuário</label>
@@ -15,10 +14,18 @@
             <br>
             <label for="senha">Senha</label>
             <br>
+            <div class="input1">
             <input type="password" id="senha" name="senha" required />
+            </div>
             <br>
+            <div class="checkbox-container">
+                <input type="checkbox" id="mostrarSenha" name="mostrarSenha" />
+                <label for="mostrarSenha">Mostrar senha</label>
+            </div>
             <button type="submit">Entrar</button>
         </form>
     </div>
+
+<script src="js/login.js"></script>
 </body>
 </html>
