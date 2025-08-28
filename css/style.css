@@ -1,72 +1,116 @@
 body {
-    font-family: 'Comic Sans MS', cursive;
-    padding: 20px;
-    text-align: center;
-    background-color: #427aa1;
-    margin-top: 60px;
-  } 
-  button {
-    margin: 5px;
-    padding: 10px;
-    font-size: 16px;
-    cursor: grab;
-    background-color: #064789;/*Alterar a cor do botão*/
-    color: #ebf2fa;
-    border-color: #427aa1;
-    border-radius: 5px;
-  }  
-  input {
-    padding: 5px;
-    margin: 5px;
-  }
-header {
-  background-color: #064789;
-  color: #427aa1;
-  font-size: 14px;
-  width: 100%;    
+  font-family: 'Comic Sans MS', cursive;
+  padding: 20px;
   text-align: center;
+  background-color: #427aa1;
+  margin-top: 60px;
+}
+button {
+  margin: 5px;
   padding: 10px;
-  position: fixed;
-  top: 0;
-  z-index: 100; /* para ficar na frente */
-  right: 0;
-  left: 0;
+  font-size: 16px;
+  cursor: grab;
+  background-color: #064789;/*Alterar a cor do botão*/
+  color: #ebf2fa;
+  border-color: #427aa1;
+  border-radius: 5px;
+}  
+input {
+  padding: 5px;
+  margin: 5px;
+}
+header {
+background-color: #064789;
+color: #427aa1;
+font-size: 14px;
+width: 100%;    
+text-align: center;
+padding: 10px;
+position: fixed;
+top: 0;
+z-index: 100; /* para ficar na frente */
+right: 0;
+left: 0;
 }
 footer {
-  background-color: #064789;
-  color: #427aa1;
-  text-align: center;
-  font-style: italic;
-  padding-top: 2px;
-  width: 100%;
-  height: auto;
-  position: fixed; /*Para deixar a posição fixa no site */
-  bottom:0% ; /*Bottom quer dizer fundo ou seja essa é a margem de distancia do 'footer' para o fundo no caso 0, ficando sempre à baixo*/
-  right: 0;
-  left: 0;
+background-color: #064789;
+color: #427aa1;
+text-align: center;
+font-style: italic;
+padding-top: 2px;
+width: 100%;
+height: auto;
+position: fixed; /*Para deixar a posição fixa no site */
+bottom:0% ; /*Bottom quer dizer fundo ou seja essa é a margem de distancia do 'footer' para o fundo no caso 0, ficando sempre à baixo*/
+right: 0;
+left: 0;
 }
 footer h3 {
-  font-family: 'Courier New', Courier, monospace;
+font-family: 'Courier New', Courier, monospace;
 }
 header h1 {
-  font-family: 'Courier New', Courier, monospace;
+font-family: 'Courier New', Courier, monospace;
 }
 section:hover {
-  transform: translateY(-2.5px);
+transform: translateY(-2.5px);
 }
 .botoes {
-  display: flex;
-  gap: 10px; /* espaço entre os botões */
-  margin-bottom: 20px;
-  justify-self: center; /*mover para o centro*/
+display: flex;
+gap: 10px; /* espaço entre os botões */
+margin-bottom: 20px;
+justify-self: center; /*mover para o centro*/
 }
 .cor-lista {
-  color: #ebf2fa;
-  text-align: center;
-  background-color: #064789;
-  width: 35%;
-  display: flex;
-  justify-self: center;
-  border-radius: 10px;
-  align-items: center;
+color: #ebf2fa;
+text-align: center;
+background-color: #064789;
+width: 35%;
+display: flex;
+justify-self: center;
+border-radius: 10px;
+align-items: center;
+}
+
+
+/*
+CSS PARA AS LOGOS
+*/
+
+
+.social-links {
+display: flex;
+justify-content: center;
+gap: 1.5rem;
+margin-top: 1rem;
+}
+     
+.social-links a {
+color: white;
+font-size: 1.5rem;
+transition: color 0.3s ease;
+}
+     
+.social-links a:hover {
+color: #064789;
+}
+.social-item {
+display: flex;
+flex-direction: column;
+align-items: center;
+position: relative;
+}
+
+
+.profile-name {
+margin-top: 5px;
+font-size: 0.8rem;
+color: #ebf2fa;
+opacity: 0;
+transition: opacity 0.3s ease;
+pointer-events: none,; /* Evita interferência no hover */
+}
+
+
+.social-item:hover .profile-name {
+opacity: 1;
 }
